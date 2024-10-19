@@ -11,7 +11,7 @@ on:
        - name: Checkout Code
          uses: actions/checkout@v4
       - name: Check Java version
-        run: java -v
+        run: java -version
       - name: Check Node version
         run: node -v
       
